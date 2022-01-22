@@ -1,10 +1,12 @@
+#coding:utf-8
 from setuptools import setup
 from setuptools import find_packages
+import codecs
 
-with open("README.md", "r") as fh:
+with codecs.open("README.md", "r",'utf-8') as fh:
     long_description = fh.read()
 
-VERSION = '0.1.0'
+VERSION = '0.2.0'
 
 setup(
     name='Triangle-Msh-To-Voronoi',  # package name

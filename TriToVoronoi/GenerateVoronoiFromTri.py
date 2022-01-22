@@ -5,7 +5,7 @@ from .MshReader import MshReader
 from .lineInfo import lineInfo
 from .FlaviaMshWriter import WriteFlaviaMsh
 import numpy as np
-import MathTools as mt
+from . import MathTools as mt
 from .CalcConfigWriter import writeCalcConfig
 
 
