@@ -8,7 +8,7 @@ pip install Triangle-Msh-To-Voronoi
 
 2. 导入
 ```python
-import TriToVonoroi as tv
+import TriToVoronoi as tv
 ```
 
 2. 读取网格
