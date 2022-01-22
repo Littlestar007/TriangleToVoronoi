@@ -1,2 +1,5 @@
 dist/
 build/
+.vscode/
+Triangle_Msh_To_Voronoi.egg-info/
+__pycache__/
